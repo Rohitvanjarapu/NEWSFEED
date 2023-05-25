@@ -1,0 +1,68 @@
+.head {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 12px;
+  margin: 12px auto;
+}
+
+#newsBox {
+  margin: 16px auto 40px auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  background-color: #F8F9FA;
+  padding: 22px;
+  visibility: hidden;
+}
+
+.newsCard {
+  width: 33vw;
+  margin: 7px;
+}
+
+#img {
+  height: 406px;
+  width: 721px;
+}
+
+.line {
+  width: 30vw;
+  border: 1px solid black;
+  margin: 7px;
+  background-color: black;
+  height: 4px;
+  border-radius: 24px;
+}
+
+footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+}
+
+.mySpin {
+  margin: 50px auto;
+  display: block;
+  height: 10vh;
+  ;
+  width: 10vh;
+  ;
+  visibility: visible;
+}
+
+/* Media Quries */
+@media only screen and (max-width: 1150px) {
+  .newsCard {
+      width: 83vw;
+      margin: 7px;
+  }
+}
+.getnews{
+    background-image: url("https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.dreamstime.com%2Fphotos-images%2Fnews.html&psig=AOvVaw3s9RmYdFBc0kskjr5BkLRC&ust=1677122664391000&source=images&cd=vfe&ved=0CAwQjRxqFwoTCJiF1vaWqP0CFQAAAAAdAAAAABAE");
+    background-size: cover;
+}
